@@ -1,0 +1,98 @@
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Павел Дуров - Информация</title>
+    <link rel="shortcut icon" href="/img/site-icon.png">
+</head>
+<body>
+    <header>
+        <img src="/img/logo.jpg" alt="logo" style="width: 200px; height: 170px; border-radius: 30px;">
+        <h1 style="font-size: 3em;">Павел Дуров</h1>
+        <nav>
+            <ul>
+                <li style="display: inline-block; font-size: 1.4em; margin-right: 15px;"><a href="#introduction" class="menu-a">Введение</a></li>
+                <li style="display: inline-block; font-size: 1.4em; margin-left: 15px;"><a href="#information" class="menu-a">Информация</a></li>
+                <li style="display: inline-block; font-size: 1.4em; margin-left: 15px;"><a href="#feedback" class="menu-a">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introduction" id="introduction">
+            <img src="/img/photo-introduction.jpg" alt="" style="width: 600px; height: 400px; border-radius: 50px; margin: 0 auto; display: block;">
+            <h2 class="int-text">Введение</h2>
+            <p class="pint">Дуров Павел Валерьевич - предприниматель в сфере информационных технологий российского происхождения. Основатель социальной сети «ВКонтакте» и кроссплатформенного мессенджера Telegram.</p>    
+            <p class="pint">В 2006 году вместе с братом Николаем Дуровым основал социальную сеть «ВКонтакте», которая быстро стала самой популярной соцсетью в России и многих странах СНГ. В 2014 году, после конфликта с новыми владельцами компании и давления со стороны российских властей, Дуров покинул пост генерального директора «ВКонтакте» и уехал из России.</p>
+            <p class="pint">Дуров активно выступает за свободу интернета и критикует правительства, которые пытаются ограничить цифровые права граждан. В ОАЭ он сосредоточился на развитии созданного им в 2013 году мессенджера Telegram, который заявляет высокую степень конфиденциальности данных.</p>
+            <blockquote>
+                <q style="font-size: 1.1rem;">Каждый из нас рано или поздно умрет, но мы как вид останемся еще на какое-то время. Вот почему я считаю, что деньги, слава или власть не имеют никакого значения. Служение человечеству - единственное, что действительно имеет значение в долгосрочной перспективе.</q> <br>
+                <cite>—  Павел Валерьевич Дуров</cite>
+            </blockquote>
+        </section>
+
+        <section class="info" id="information">
+            <h2 class="info-text">Информация</h2>
+            <ol type="1" class="list">
+                <li><a href="article1.html" class="a-list">Биография</a></li>
+                <li><a href="article2.html" class="a-list">Основные изобретения</a></li>
+                <li><a href="article3.html" class="a-list">Интересные факты</a></li>
+                <li><a href="article4.html" class="a-list" id="warning">Список терминов</a></li>
+            </ol>
+        </section>
+
+        <section class="feedback" id="feedback">
+                <h2 class="info-text">Обратная связь</h2>
+                <form action="" id="contact-form">
+                    <div class="form_item">
+                        <label for="theme">Тема</label> <br>
+                        <select name="theme" id="theme">
+                            <option value="1">Дополнительная информация</option>
+                            <option value="2">Предложения</option>
+                            <option value="3">Сотрудничество</option>
+                            <option value="4">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form_item">
+                        <label for="name">Имя</label> <br>
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form_item">
+                        <label for="tel">Номер телефона</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Your number">
+                    </div>
+                    <div class="form_item">
+                        <label for="email">Почта</label> <br>
+                        <input type="email" name="email" id="email" placeholder="Your email" required> 
+                    </div>
+                    <div class="form_item">
+                        <label for="date">Дата отправления</label> <br>
+                        <input type="date" name="date" id="date" required> 
+                    </div>
+                    <div class="form_item">
+                        <label for="bigtext">Введите сообщение</label> <br>
+                        <textarea type="textarea" name="bigtext" id="bigtext" rows="5" placeholder="Type the text" required></textarea>
+                    </div>
+                    <div class="form_item">
+                        <label for="approved" class="text-approved">Согласен на обработку пер. данных</label>
+                        <input type="checkbox" name="approved" id="approved" required style="text-align: left;">
+                    </div>
+                    <div class="form_item">
+                        <input type="submit">
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <p>© Кунцевич Сергей, 2024г.</p>
+        <a href="tel:+79008007060" style="text-decoration: none; color: black;">+7-900-800-70-60 📱</a> <br> 
+        <a href="mailto:indexserver@gmail.com" style="text-decoration: none; color: black;">indexserver@gmail.com ✉️</a>
+        <p class="call">Вы можете найти меня <a href="https://portal.midis.info/company/personal/user/20635/" style="color: black;" target="_blank"><strong><u>тут</u></strong></a>!</p>
+    </footer>
+</body>
+</html>
